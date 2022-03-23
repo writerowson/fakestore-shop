@@ -1,19 +1,23 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Test from './Components/Test/Test';
+import Menubar from './Components/Menubar/Menubar';
+import AllProduct from './Components/AllProducts/AllProduct';
 
 
 
 function App() {
+
   return (
     <div className="App">
-      <h1 className='text-danger'>0</h1>
-      <Test></Test>
+      <h1></h1>
+
+      <Menubar></Menubar>
+      <AllProduct></AllProduct>
     </div>
   );
 }
 
 export default App;
 
-// video 30:00
+// video 1:04:00
